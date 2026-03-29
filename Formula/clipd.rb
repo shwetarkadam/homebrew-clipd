@@ -6,10 +6,10 @@ class Clipd < Formula
   version "0.1.0-alpha"
   license "BUSL-1.1"
 
- def install
-  bin.install "clipd"
-  bin.install "clipd-gui"
-  bin.install "clipd-ui"
+def install
+  bin.install "clipd-macos-v0.1.0-alpha/clipd"
+  bin.install "clipd-macos-v0.1.0-alpha/clipd-gui"
+  bin.install "clipd-macos-v0.1.0-alpha/clipd-ui"
 end
 
   test do
